@@ -1,0 +1,9 @@
+*.pdf
+datasheets/
+
+MCU_ST_STM32G4.kicad_symdir/
+.history/
+
+build/
+cmake/
+.mxproject

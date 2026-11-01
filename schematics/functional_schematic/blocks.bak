@@ -1,0 +1,2134 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "cooling_fan"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "FAN"
+			(at 0 15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "cooling_fan_0_1"
+			(rectangle
+				(start -14 13)
+				(end 14 -7)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 13) (xy 8 -7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "cooling_fan_1_1"
+			(polyline
+				(pts
+					(xy -8 13) (xy -8 -7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "VDD"
+				(at -11 8 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2 2)
+					)
+				)
+			)
+			(text "GND"
+				(at -11 3 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2 2)
+					)
+				)
+			)
+			(text "PWM"
+				(at -11 -2 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "Вентилятор\nохлаждения"
+				(at 0 9 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "TACH"
+				(at 11 8 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 1.9 1.9)
+					)
+				)
+			)
+			(pin power_in line
+				(at -19 8 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -19 3 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -19 -2 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 19 8 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "display_block"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "DISP"
+			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "display_block_0_0"
+			(text ""
+				(at 7 0 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "display_block_0_1"
+			(rectangle
+				(start -20 10)
+				(end 20 -10)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "display_block_1_1"
+			(polyline
+				(pts
+					(xy -18 1) (xy -18 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -17 0)
+				(mid -17 0)
+				(end -17 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -17 0)
+				(mid -17 0)
+				(end -17 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Дисплей"
+				(at 0 0 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 3 3)
+					)
+				)
+			)
+			(text_box "I2C"
+				(at -20 10 0)
+				(size 5 -20)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2 2)
+					)
+				)
+			)
+			(pin input line
+				(at -25 0 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "display_i2c"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "DISP"
+			(at 0 15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "display_i2c_0_0"
+			(text ""
+				(at 11 -10 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "display_i2c_0_1"
+			(rectangle
+				(start -9 13)
+				(end 9 -12)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "display_i2c_1_1"
+			(polyline
+				(pts
+					(xy -3 13) (xy -3 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "VDD"
+				(at -6 8 0)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(text "GND"
+				(at -6 3 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2 2)
+					)
+				)
+			)
+			(text "SDA"
+				(at -6 -2 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "SCL\n"
+				(at -6 -7 0)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(text "Дисплей"
+				(at 3 9 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(pin power_in line
+				(at -14 8 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -14 3 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -14 -2 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -14 -7 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "encoder"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "ENC"
+			(at 0 15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "encoder_0_0"
+			(text ""
+				(at 11 -10 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "encoder_0_1"
+			(rectangle
+				(start -9 13)
+				(end 9 -17)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "encoder_1_1"
+			(polyline
+				(pts
+					(xy -3 13) (xy -3 -17)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "A"
+				(at -6 8 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "B"
+				(at -6 3 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "COM"
+				(at -6 -2 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "SW1"
+				(at -6 -7 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "SW2"
+				(at -6 -12 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "Энкодер"
+				(at 3 9 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(pin passive line
+				(at -14 8 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -14 3 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -14 -2 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -14 -7 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -14 -12 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "encoder_block"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "ENC"
+			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "encoder_block_0_0"
+			(text ""
+				(at 7 0 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "encoder_block_0_1"
+			(rectangle
+				(start -20 10)
+				(end 20 -10)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "encoder_block_1_1"
+			(text "Энкодер"
+				(at 0 0 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 3 3)
+					)
+				)
+			)
+			(pin output line
+				(at 25 0 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "fan_block"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "CS"
+			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "fan_block_0_0"
+			(text ""
+				(at 4 0 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "fan_block_0_1"
+			(rectangle
+				(start -23 10)
+				(end 22 -10)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "fan_block_1_1"
+			(polyline
+				(pts
+					(xy -21 1) (xy -21 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -20 0)
+				(mid -20 0)
+				(end -20 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -20 0)
+				(mid -20 0)
+				(end -20 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Система охлаждения"
+				(at 3 0 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 3 3)
+					)
+				)
+			)
+			(text_box "PWM"
+				(at -23 10 0)
+				(size 6 -20)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(pin input line
+				(at -28 0 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "keyboard"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "K"
+			(at 0 15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "keyboard_0_0"
+			(text ""
+				(at 7 -10 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "keyboard_0_1"
+			(rectangle
+				(start -13 13)
+				(end 13 -12)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "R1"
+				(at 11 8 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+		)
+		(symbol "keyboard_1_1"
+			(polyline
+				(pts
+					(xy -8 13) (xy -8 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 13) (xy 8 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "C1"
+				(at -11 8 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2 2)
+					)
+				)
+			)
+			(text "C2"
+				(at -11 3 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2 2)
+					)
+				)
+			)
+			(text "C2"
+				(at -11 3 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2 2)
+					)
+				)
+			)
+			(text "C3"
+				(at -11 -2 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "C4"
+				(at -11 -7 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "Матричная\nклавиатура"
+				(at 0 9 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "R2"
+				(at 11 3 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "R3"
+				(at 11 -2 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "R4"
+				(at 11 -7 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(pin input line
+				(at -18 8 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -18 3 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -18 -2 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -18 -7 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 18 8 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 18 3 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 18 -2 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 18 -7 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "keyboard_block"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "K"
+			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "keyboard_block_0_0"
+			(text ""
+				(at 7 0 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "keyboard_block_0_1"
+			(rectangle
+				(start -20 10)
+				(end 20 -10)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "keyboard_block_1_1"
+			(text "Клавиатура"
+				(at 0 0 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 3 3)
+					)
+				)
+			)
+			(pin output line
+				(at 25 0 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "linear_stabilizer"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "linear_stabilizer_0_1"
+			(rectangle
+				(start -15 8)
+				(end 15 -7)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "linear_stabilizer_1_1"
+			(polyline
+				(pts
+					(xy -9 8) (xy -9 -7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9 8) (xy 9 -7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "V_{IN}"
+				(at -12 3 0)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(text "GND"
+				(at -12 -2 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2 2)
+					)
+				)
+			)
+			(text "Стабилизатор\nнапряжения"
+				(at 0 4 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2 2)
+					)
+				)
+			)
+			(text "V_{OUT}"
+				(at 12 3 0)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 3 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 -2 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20 3 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "mcu_block"
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "MCU"
+			(at 0 18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "mcu_block_0_0"
+			(text ""
+				(at 4 1 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "mcu_block_0_1"
+			(rectangle
+				(start -51 16)
+				(end 49 -16)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "mcu_block_1_1"
+			(text "Микроконтроллер"
+				(at 0 4 0)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 3 3)
+					)
+				)
+			)
+			(text_box "GPIO"
+				(at -51 -10 0)
+				(size 50 -6)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(text_box "DAC"
+				(at -1 -10 0)
+				(size 10 -6)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(text_box "ADC"
+				(at 9 -10 0)
+				(size 20 -6)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "GOST Type BU")
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(text_box "PWM"
+				(at 29 -10 0)
+				(size 10 -6)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(text_box "I2C"
+				(at 39 -10 0)
+				(size 10 -6)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(pin input line
+				(at -46 -21 90)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -41 -21 90)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 4 -21 90)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 14 -21 90)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19 -21 90)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24 -21 90)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34 -21 90)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 44 -21 90)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2 2)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

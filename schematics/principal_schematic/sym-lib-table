@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MCU_ST_STM32G4") (type "KiCad") (uri "/home/maxpast/BSUIR-projects/Electronic-load/schematics/MCU_ST_STM32G4.kicad_symdir") (options "") (descr "") (disabled))
+)
